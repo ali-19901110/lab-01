@@ -1,0 +1,67 @@
+@media(max-width:960px) and (min-width:768px) {
+
+    header div {
+        width: 960px;
+        height: 100px;
+        background-color: rgb(57, 219, 24);
+        
+    }
+  
+    main>div:nth-child(1){
+        width: 200px;
+        height: 600px;
+        background-color: rgb(122, 48, 48); 
+        float: left;
+       
+    }
+    main>div:nth-child(2){
+        width: 380px;
+        height: 200px;
+        background-color: rgb(57, 158, 26); 
+       float: left;
+    }
+    main>div:nth-child(3){
+        
+        width: 380px;
+        height: 200px;
+        background-color: rgb(43, 37, 121); 
+      float: left;
+    }
+    main>div:nth-child(4){
+       clear: both;
+        width: 190px;
+        height: 250px;
+        background-color: rgb(180, 29, 29); 
+
+        float: left;
+    }
+    main>div:nth-child(5){
+        width: 190px;
+        height: 250px;
+        background-color: rgb(171, 173, 23); 
+        float: left;
+    }
+    main>div:nth-child(6){
+        width: 190px;
+        height: 250px;
+        background-color: rgb(74, 48, 133); 
+        float: left;
+    
+    }
+    main>div:nth-child(7){
+        width: 190px;
+        height: 250px;
+        background-color: rgb(235, 12, 41); 
+       
+    
+    }
+    
+    footer div{
+         float: left;
+        width: 760px;
+        height: 150px;
+        background-color:rgb(114, 219, 82);
+       
+        
+    }
+  }
