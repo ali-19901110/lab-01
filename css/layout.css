@@ -1,4 +1,4 @@
-div{
+#container>div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,72 +6,65 @@ div{
 }
 
 @media (max-width:767px) and (min-width:480px)  {
-    header div {
-        width: 480px;
-        height: 75px;
-        background-color: rgb(223, 23, 23);
-       
+    #container>div:nth-child(1){
+        width: 100%;
+        height:7.10%;
+        background-color: rgb(219, 86, 24);
         
     }
-    /* #content > div:first-of-type { /* css  */
-    main>div:nth-child(1){
-        width: 480px;
-        height: 150px;
-        background-color: rgb(48, 107, 122); 
-     
-    }
-    main>div:nth-child(2){
-        width: 480px;
-        height: 125px;
-        background-color: rgb(114, 219, 82); 
+  
+    #container>div:nth-child(2){
+        width: 100%;
+        height: 14.218%;
+        background-color: rgb(122, 48, 48); 
         
-    }
-    main>div:nth-child(3){
-        width: 480px;
-        height: 125px;
-        background-color: rgb(69, 37, 121); 
-        overflow:auto;
-    }
-    main>div:nth-child(4){
-        width: 240px;
-        height: 250px;
-        background-color: rgb(180, 29, 29); 
-        float: left;
        
     }
-    main>div:nth-child(5){
+    #container>div:nth-child(3){
+        width: 100%;
+        height: 11.848%;
+        background-color: rgb(255, 38, 0);
+        
+    }
+    #container>div:nth-child(4){
+        
+        width: 100%;
+        height: 11.848%;
+        background-color: rgb(248, 110, 18);
+    }
+  
+    #container>div:nth-child(5){
         /* clear: both; */
-        width: 240px;
-        height: 250px;
-        background-color: rgb(171, 173, 23); 
-        /* float: left; */
-      
+        width: 50%;
+        height: 23.69%;
+        background-color: rgb(218, 64, 18); 
+        float: left;
     }
-    main>div:nth-child(6){
-        clear: both;
-        width: 240px;
-        height: 250px;
+    #container>div:nth-child(6){
+        width: 50%;
+        height: 23.69%;
+        background-color: rgb(171, 173, 23); 
+        float: left;
+    }
+    #container>div:nth-child(7){
+        width: 50%;
+        height: 23.69%;
         background-color: rgb(74, 48, 133); 
         float: left;
-       
-    }
-    main>div:nth-child(7){
-        width: 240px;
-        height: 250px;
-        background-color: rgb(235, 12, 41); 
-        float: left;
-       
-    }
     
-    footer div{
-        clear: both;
-        width: 480px;
-        height: 80px;
-        background-color:rgb(114, 219, 82);
-       
     }
-    /* .menu, .main, .right {
-      width:100%;
-    } */
+    #container>div:nth-child(8){
+        width: 50%;
+        height: 23.69%;
+        background-color:  mediumturquoise;
+        float: left;
+    }
+    #container>div:nth-child(9){
+        width: 100%;
+        height: 7.582%;
+        background-color:rgb(255, 0, 0);
+       
+        
+    } 
   }
 
