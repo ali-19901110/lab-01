@@ -1,71 +1,63 @@
-/* @media(max-width:960px ) and (min-width:768px) { */
-    #container{
-        width: 100%;
-        height: 700px;
-        /* background-color:black; */
-      
+
+header{
+    height: 14.28%;
+}
+   header>div{
+    width: 100%;
+    height:100% ;
+    background-color: mediumvioletred;
+}
+
+    main{
+            display: grid;
+            grid-template-columns: 20.83% 1fr ;
+            height: 100%
+            /* height: calc(100% - 140px); */
+       
     }
 
-    #container>div:nth-child(1){
-        width: 100%;
-        height:14.2857%;
-        background-color: rgb(57, 219, 24);
-        
-    }
+ 
+  main>.sidbar{
+     
+   order: 1;
+   background-color: midnightblue;
+  }
+
+  main>#content{
+      order: 2;
+      display: grid;
+      grid-template-rows: 33.33% 33.33% 1fr;
+  }
+  .sec1{
+    display: grid;
+    grid-template-columns:1fr 1fr; 
+  }
+  .sec1:nth-child(1){
+      
+      background-color: olive;
+  }
+  .test{
+      background-color:red;
+  }
   
-    #container>div:nth-child(2){
-        width: 20.83%;
-        height: 85%;
-        background-color: rgb(122, 48, 48); 
-        float: left;
-       
-    }
-    #container>div:nth-child(3){
-        width: 39.583%;
-        height: 28.5714%;
-        background-color: yellow;
-        float: left;
-    }
-    #container>div:nth-child(4){
-        
-        width: 39.583%;
-        height: 28.5714%;
-        background-color: rgb(43, 37, 121);
-        float: left; 
-    }
-  
-    #container>div:nth-child(5){
-        /* clear: both; */
-        width: 19.7916%;
-        height: 35.71%;
-        background-color: pink; 
-        float: left;
-    }
-    #container>div:nth-child(6){
-        width: 19.7916%;
-        height: 35.71%;
-        background-color: rgb(171, 173, 23); 
-        float: left;
-    }
-    #container>div:nth-child(7){
-        width: 19.7916%;
-        height: 35.71%;
-        background-color: rgb(74, 48, 133); 
-        float: left;
-    
-    }
-    #container>div:nth-child(8){
-        width: 19.7916%;
-        height: 35.71%;
-        background-color:  mediumturquoise;
-        float: left;
-    }
-    #container>div:nth-child(9){
-        width: 79.16%;
-        height: 21.42%;
-        background-color:yellow;
-        float: left;
-       
-        
-    } 
-  /* } */
+  .sec2{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%; 
+  }
+
+  .sec21{
+      background-color: rosybrown;
+  }
+  .sec22{
+      background-color: royalblue;
+  }
+  .sec23{
+      background-color: slategray;
+  }
+  .sec24{
+      background-color: tan;
+  }
+
+  .footer{
+      background-color: yellow;
+  }
