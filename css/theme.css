@@ -1,0 +1,61 @@
+/* 481px — 768px */
+@media (max-width:768px) and (min-width:481px)  {
+  header>div{
+    width: 100%;
+    height:100%;
+    background-color: moccasin;
+}
+  main{
+    display: grid;
+    grid-template-columns: 20.83% 1fr ;
+    height: 100%
+    /* height: calc(100% - 140px); */
+
+}
+
+
+main>.sidbar{
+
+order: 1;
+background-color: red;
+}
+
+main>#content{
+order: 2;
+display: grid;
+grid-template-rows: 33.33% 33.33% 1fr;
+}
+.sec1{
+display: grid;
+grid-template-columns:1fr 1fr; 
+}
+.sec1:nth-child(1){
+
+background-color:hotpink;
+}
+.test{
+background-color:lawngreen;
+}
+
+.sec2{
+display: grid;
+grid-template-columns:25% 25% 25% 25%; 
+}
+
+.sec21{
+background-color: red;
+}
+.sec22{
+background-color: pink;
+}
+.sec23{
+background-color: greenyellow;
+}
+.sec24{
+background-color:red;
+}
+
+.footer{
+background-color:pink;
+}
+  }
